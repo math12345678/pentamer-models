@@ -38,21 +38,3 @@ The modeling framework provides testable predictions across three core areas: **
 4. **Experiment 4 (Receptor competition)**: Assesses binding site structure through receptor binding assays using soluble neuropilin-2 (`NRP2`, PDB `7M22`), paired with Model 4.
 5. **Experiment 5 (Serial titration & LOD)**: Establishes sample concentration and titration protocols to define the analytical limit of detection (`LOD`) via Model 2 (`4PL` sigmoid calibration) and evaluate clinical saliva clearance in Model 3.
 6. **Experiment 6 (Saliva matrix interference)**: Compares filtered saliva against unfiltered saliva to quantify background interference from endogenous oral bacterial $\beta$-lactamases for Models 1 and 2.
-
----
-
-## References
-
-- Chandramouli, S., et al. (2017). Structural basis for potent antibody-mediated neutralization of human cytomegalovirus. *Science Immunology*, 2. (PDB `5VOB`)
-- Fowler, K. B., et al. (1997). Progressive and fluctuating sensorineural hearing loss in children with asymptomatic congenital cytomegalovirus infection. *Journal of Pediatrics*, 130, 624-630.
-- Galarneau, A., Primeau, M., Trudeau, L. E., & Michnick, S. W. (2002). $\beta$-Lactamase protein fragment complementation assays as in vivo and in vitro sensors of protein-protein interactions. *Nature Biotechnology*, 20, 619-622.
-- Gantt, S., et al. (2020). Performance of the Alethia CMV assay for detection of cytomegalovirus by use of neonatal saliva swabs. *Journal of Clinical Microbiology*, 58.
-- Heras, R. de las, et al. (2008). Development of homogeneous immunoassays based on protein fragment complementation. *Biochemical and Biophysical Research Communications*, 370, 164-168.
-- Kimberlin, D. W., et al. (2015). Valganciclovir for symptomatic congenital cytomegalovirus disease. *New England Journal of Medicine*, 372, 933-943.
-- Kschonsak, M., et al. (2022). Structural basis for HCMV Pentamer receptor recognition and antibody neutralization. *Science Advances*, 8. (PDB `7T4S`)
-- Lebel, P., et al. (2024). A handheld luminometer with sub-attomole limit of detection for distributed applications in global health. *PLOS Global Public Health*, 4.
-- Lobstein, J., et al. (2012). SHuffle, a novel *Escherichia coli* protein expression strain capable of correctly folding disulfide bonded proteins in its cytoplasm. *Microbial Cell Factories*, 11.
-- Lutz, C. S., et al. (2025). Updated national and state-specific prevalence of congenital cytomegalovirus infection, United States, 2018-2022. *Journal of Public Health Management & Practice*, 31, 234-243.
-- Ni, Y., et al. (2021). A plug-and-play platform of ratiometric bioluminescent sensors for homogeneous immunoassays. *Nature Communications*, 12.
-- Wrapp, D., et al. (2022). Structural basis for HCMV Pentamer recognition by neuropilin 2 and neutralizing antibodies. *Science Advances*, 8. (PDB `7M22`)
-- Yu, F., Alesand, V., & Nygren, P. A. (2018). Site-specific photoconjugation of beta-lactamase fragments to monoclonal antibodies enables sensitive analyte detection via split-enzyme complementation. *Biotechnology Journal*, 13.
