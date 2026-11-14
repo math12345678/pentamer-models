@@ -37,4 +37,4 @@ The modeling framework provides testable predictions across three core areas: **
 3. **Experiment 3 (Complex specificity)**: Evaluates specificity against related HCMV glycoprotein complexes (`gH/gL` dimers and `gH/gL/gO` trimers lacking pentamer-specific `UL128/UL130/UL131A` subunits), paired with Model 4 structural geometry.
 4. **Experiment 4 (Receptor competition)**: Assesses binding site structure through receptor binding assays using soluble neuropilin-2 (`NRP2`, PDB `7M22`), paired with Model 4.
 5. **Experiment 5 (Serial titration & LOD)**: Establishes sample concentration and titration protocols to define the analytical limit of detection (`LOD`) via Model 2 (`4PL` sigmoid calibration) and evaluate clinical saliva clearance in Model 3.
-6. **Experiment 6 (Saliva matrix interference)**: Compares filtered saliva against unfiltered saliva to quantify background interference from endogenous oral bacterial $\beta$-lactamases for Models 1 and 2.
+6. **Experiment 6 (Saliva matrix interference)**: Spikes synthetic saliva with a known bacterial $\beta$-lactamase and tests whether filtration removes it, quantifying background interference for Models 1 and 2.
