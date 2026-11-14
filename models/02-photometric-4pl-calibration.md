@@ -2,7 +2,7 @@
 
 ## Objective
 
-Fit a **four-parameter logistic (`4PL`) sigmoid curve** to optical signal against pentamer concentration, assigning **probabilities between `0` and `1`** across the dose-response range to define the exact analytical **limit of detection (`LOD`)** and detect potential **high-dose hook effects**.
+Fit a **four-parameter logistic (`4PL`) sigmoid curve** to optical signal against pentamer concentration to define the exact analytical **limit of detection (`LOD`)** and detect potential **high-dose hook effects**.
 
 ---
 
@@ -15,7 +15,7 @@ Fit a **four-parameter logistic (`4PL`) sigmoid curve** to optical signal agains
   - **Advanced tier**: Filtered-LED fluorescence reader paired with a disposable cartridge containing a secondary reaction chamber that subtracts background bacterial $\beta$-lactamase activity.
 
 ### 2. Four-Parameter Logistic (`4PL`) Sigmoid Curve Fitting
-- Across serial mock-virion titration standards, optical response is modeled with a four-parameter logistic (`4PL`) sigmoid curve and normalized onto a `[0, 1]` probability scale:
+- Across serial mock-virion titration standards, optical response is modeled with a four-parameter logistic (`4PL`) curve:
   $$y(x) = d + \frac{a - d}{1 + (x / c)^b}$$
   where:
   - $x$ is the target pentamer concentration,
@@ -23,7 +23,6 @@ Fit a **four-parameter logistic (`4PL`) sigmoid curve** to optical signal agains
   - $d$ is the upper asymptote (saturated complementation response),
   - $c$ is the inflection point ($\text{EC}_{50}$), and
   - $b$ is the Hill slope governing the steepness of the sigmoid transition.
-- Rescaling the calibrated response onto `[0, 1]` assigns a continuous detection probability between `0` and `1` for each measured sample signal.
 
 ### 3. Defining the Analytical Limit of Detection (`LOD`)
 - Using the zero-antigen baseline variance from **Experiment 1** and serial titration curves from **Experiment 5**, the model computes the minimum distinguishable optical signal above background noise and inverts the fitted `4PL` sigmoid curve to determine the exact analytical limit of detection (`LOD`) for each hardware reader tier.
