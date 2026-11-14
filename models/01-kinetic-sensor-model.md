@@ -45,4 +45,4 @@ Model the binding of both neutralizing antibody single-chain variable fragments 
 
 - **Experiment 1**: Measures baseline signal from individual scFv fusion arms alone without antigen.
 - **Experiment 2**: Measures enzyme complementation velocity when placing both `8I21` and `13H11` scFv fusions simultaneously with pentamer-coated nickel-charged beads in synthetic saliva.
-- **Experiment 6**: Compares filtered saliva against unfiltered saliva to parameterize background interference from bacterial $\beta$-lactamases.
+- **Experiment 6**: Spikes synthetic saliva with a known bacterial $\beta$-lactamase and tests whether filtration removes it, quantifying background interference for Models 1 and 2.
